@@ -1,5 +1,5 @@
 # CMR-Sum
-This is the source code for "Cross-Modal Retrieval-Enhanced Code Summarization via Multi-Task Learning"
+This is the source code for "Cross-Modal Retrieval-Enhanced Code Summarization based on Joint Learning for Retrieval and Generation"
 
 ## Package Requirement
 
