@@ -468,7 +468,7 @@ def main():
                                                                     target_ids=target_ids, 
                                                                     retrieval_target_ids=retrieval_target_ids, 
                                                                     retrieval_source_ids=retrieval_source_ids)
-                loss = sum_loss + (c2c_loss + c2nl_loss + align)*5
+                loss = sum_loss + (c2c_loss + c2nl_loss + align)*0.5
                 if args.gradient_accumulation_steps > 1:
                     loss = loss / args.gradient_accumulation_steps
                 
