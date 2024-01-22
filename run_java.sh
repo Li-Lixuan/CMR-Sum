@@ -17,7 +17,7 @@ CUDA_VISIBLE_DEVICES=0  python -u run.py \
 	--eval_batch_size 13 \
 	--learning_rate 5e-5 \
 	--gradient_accumulation_steps 2 \
-	--num_train_epochs 70 
+	--num_train_epochs 60 
 	
 # Evaluating	
 CUDA_VISIBLE_DEVICES=0 python -u run.py \
